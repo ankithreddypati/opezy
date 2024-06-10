@@ -1,0 +1,24 @@
+# Node modules for React client
+userinterface/node_modules/
+
+# Environment folder and Python cache for Flask backend
+backend/venv/
+backend/__pycache__/
+backend/.env
+
+# Build folder for React client
+userinterface/build/
+userinterface/.env
+
+# Logs and databases if any
+*.log
+*.sql
+*.db
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
