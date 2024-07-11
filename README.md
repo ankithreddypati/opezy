@@ -4,6 +4,9 @@
 
 **Opezy** is an AI-powered assistant designed to help small business owners make data-driven decisions and manage various business operations efficiently. This project demonstrates the implementation of Opezy for a Mexican restaurant, showcasing its capabilities in sales analysis, inventory management, customer feedback analysis, marketing strategy generation, and expense monitoring.
 
+[Watch the demo video on YouTube](https://youtu.be/C4sH4Qgx83o)
+
+
 ## Features
 
 1. **Sales Analysis:**
@@ -44,6 +47,13 @@
 
 ## Databases Used
 
+
+To generate data 
+ ```sh
+cd randomdataloaders
+run these to generate random data
+ ```
+
 1. **Sales Database:** Tracks all sales transactions, allowing detailed sales analysis.
 2. **Inventory Database:** Manages inventory levels and monitors the freshness of products.
 3. **Feedback Database:** Collects and analyzes customer feedback to improve products and services.
@@ -74,7 +84,7 @@
    pip install -r requirements.txt
    ```
 
-3. Create a `.env` file with your Azure and MongoDB credentials:
+3. Create a `.env` file with your Azure and MongoDB credentials check .envsample:
    ```sh
    DB_CONNECTION_STRING=<your_mongo_db_connection_string>
    AOAI_ENDPOINT=<your_azure_openai_endpoint>
@@ -100,7 +110,6 @@ cd deploy
 
 Open the `azuredeploy.parameters.json` file, then edit the `mongoDbPassword` to a password you wish to use for the MongoDB Admin User:
 
-![editing the azuredeploy.parameters.json file with mongoDBPassword parameter highlighted](images/editor-azuredeploy-parameters-json-password.png)
 
 When the Azure Bicep template is deployed, this parameters file will be used to configure the Mongo DB Password and other parameters when provisioning the Azure resources.
 
@@ -164,14 +173,6 @@ We welcome contributions to improve Opezy. To contribute, follow these steps:
 4. Push to the branch (`git push origin feature-branch`).
 5. Create a new Pull Request.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact
 
-For any questions or support, please contact us at support@opezy.com.
-
----
-
-Thank you for using Opezy! We hope it helps you streamline your business operations and achieve your goals.
