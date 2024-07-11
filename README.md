@@ -4,7 +4,7 @@
 
 **Opezy** is an assistant designed to help small business owners make data-driven decisions and manage various business operations efficiently. This project demonstrates the implementation of Opezy for a Mexican restaurant, showcasing its capabilities in sales analysis, inventory management, customer feedback analysis, marketing strategy generation, and expense monitoring.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/C4sH4Qgx83o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Watch the demo video on YouTube](https://img.youtube.com/vi/C4sH4Qgx83o/hqdefault.jpg)](https://youtu.be/C4sH4Qgx83o)
 
 
 ## Features
